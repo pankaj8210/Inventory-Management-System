@@ -98,9 +98,9 @@ WSGI_APPLICATION = 'inventory_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'inventary',
-        'USER': 'postgres',
-        'PASSWORD': '8210',
+        'NAME': 'your_database_name',
+        'USER': 'your_user_name',
+        'PASSWORD': 'your_password',
         'HOST': 'localhost',
         'PORT': '5432',
     }
